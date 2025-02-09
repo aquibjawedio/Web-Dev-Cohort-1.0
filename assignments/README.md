@@ -1,10 +1,12 @@
 # Web-Dev-Cohort-1.0
-```
-----|--- week-00
-    |   |
-    |   |--- Introduction to Cohort
-    |   |	
-    |   |--- Git & GitHub
+
+
+```	
+    	|--- week-00
+    	|   |
+        |   |--- Introduction to Cohort
+        |   |	
+        |   |--- Git & GitHub
 	|
 	|--- week-01
 	|	|
