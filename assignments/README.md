@@ -1,12 +1,10 @@
 # Web-Dev-Cohort-1.0
-
-```	
-
-    |--- week-00
+```
+----|--- week-00
     |   |
     |   |--- Introduction to Cohort
-    |   |
-	|   |--- Git & GitHub
+    |   |	
+    |   |--- Git & GitHub
 	|
 	|--- week-01
 	|	|
@@ -38,5 +36,6 @@
 	|	|
 	|	|--- Methods Creation
 
-```
 
+
+```
