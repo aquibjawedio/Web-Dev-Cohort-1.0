@@ -28,9 +28,9 @@
 	|
 	|--- week-04
 	|	|
-	|	|--- JavaScript Introduction and Methods
+	|	|--- JavaScript Introduction to Functions
 	|	|
-	|	|--- JavaScript Variable,  Loops & DataTypes
+	|	|--- JavaScript Conditionals,  Loops , DataTypes & Arrays. 
 	|
 	|--- week-05
 	|	|
