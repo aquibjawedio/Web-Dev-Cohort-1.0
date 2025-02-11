@@ -36,7 +36,7 @@
 	|	|
 	|	|--- Objects in depth
 	|	|
-	|	|--- Methods Creation
+	|	|--- Polyfills Creation
 
 
 
