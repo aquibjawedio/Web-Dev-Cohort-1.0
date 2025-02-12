@@ -1,17 +1,18 @@
 const nums = [1, 2, 3, 4, 5, 6];
 
 if(!Array.prototype.polyCopyWithin) {
-    Array.prototype.polyCopyWithin = function (callbackFunction) {
+    Array.prototype.polyCopyWithin = function (position, start, end = this.length) {
+        
+        if(start == undefined) return this;
         if(this.length <= 0) return undefined;
 
-        for(let i = 0; i < this.length; i++) {
-            callbackFunction(this[i], i, this);
+        while(start != end ) {
+            this[position++] = this[start++];
         }
+        return this;
     
     }
 
-    nums.polyCopyWithin((value, index, arr) => {
-        console.log(`Value : ${value}, Index : ${index}, arr : ${arr}`);
-    })
 }
 
+console.log(nums.polyCopyWithin(0));
