@@ -6,7 +6,7 @@
     	|   |
         |   |--- Introduction to Cohort
         |   |	
-        |   |--- Git & GitHub
+        |   |--- Git & GitHub masterclass - 1
 	|
 	|--- week-01
 	|	|
@@ -30,7 +30,9 @@
 	|	|
 	|	|--- JavaScript Introduction to Functions
 	|	|
-	|	|--- JavaScript Conditionals,  Loops , DataTypes & Arrays. 
+	|	|--- JavaScript Conditionals,  Loops , DataTypes & Arrays.
+	|	|
+	|	|--- Git and GitHub masterclass - 2 
 	|
 	|--- week-05
 	|	|
