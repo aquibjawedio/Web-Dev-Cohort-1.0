@@ -8,69 +8,149 @@
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.6;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* Navbar styles */
 .navbar {
   /* Add styles for the navbar */
+  width: 100%;
+  height: 10%;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: #fff;
 }
 
 .logo {
   /* Add styles for the logo */
+  width: 300px;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #00beb1;
 }
 
 .logo img {
   /* Add styles for the logo image */
+  border-radius: 50%;
+  margin-right: 0.4rem;
+  border: 2px solid #00beb1;
 }
 
 .menu a {
   /* Add styles for the navigation links */
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .menu a:hover {
   /* Add hover styles for navigation links */
+  color: #00beb1;
 }
 
 /* Hero section styles */
 .hero {
   /* Add styles for the hero section */
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#000000cb, #000000d5), url(./assets/chaicohort.png);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
 }
 
 .hero-content {
   /* Add styles for the hero content container */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .hero-content h1 {
   /* Add styles for the hero heading */
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #00beb1;
 }
 
 .hero-content p {
   /* Add styles for the hero paragraph */
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .hero-content img {
   /* Add styles for the image in the hero section */
+  border: 2px solid #00beb1;
+  border-radius: 0.5rem;
 }
 
 .enroll-button {
   /* Add styles for the enroll button */
+  padding: 0.8rem 2rem;
+  background-color: #00beb1;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .enroll-button:hover {
   /* Add hover styles for the enroll button */
+  background-color: #00beb1df;
 }
 
 /* Highlights section styles */
 .highlights {
   /* Add styles for the highlights section */
+  width: 100%;
+  height: 40%;
+  padding: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1a1a1a;;
+  color: #fff;
 }
 
 .highlight-card {
   /* Add styles for each highlight card */
+  width: 25%;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+  background-color: #222222;
 }
 
 .highlight-card h3 {
   /* Add styles for highlight card headings */
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #00beb1;
 }
 
 .highlight-card p {

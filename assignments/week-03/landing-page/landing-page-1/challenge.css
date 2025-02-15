@@ -9,67 +9,143 @@
 body {
   font-family: "Arial", sans-serif;
   line-height: 1.6;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* Navbar styles */
 .navbar {
   /* Add styles for navbar */
+  width: 100%;
+  height: 10%;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
 }
 
 .logo {
   /* Add styles for the logo */
+  width: 300px;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .logo img {
   /* Add styles for logo image */
+  border-radius: 50%;
+  margin-right: 0.4rem;
 }
 
 .nav-links a {
   /* Add styles for nav links */
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .nav-links a:hover {
   /* Add hover styles for nav links */
+  color: #f1c40f;
 }
 
 /* Hero section styles */
 .hero {
   /* Add styles for hero section */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(#000000c0, #000000c5), url(./assets/chaigym.png);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
 }
 
 .hero-content {
   /* Add styles for hero content */
+  height: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .hero-content h1 {
   /* Add styles for hero heading */
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .hero-content p {
   /* Add styles for hero paragraph */
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .cta-button {
   /* Add styles for CTA button */
+  padding: 0.8rem 2rem;
+  background-color: #ff8400;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .cta-button:hover {
   /* Add hover styles for CTA button */
+  background-color: #f1b547;
 }
 
 /* Features section styles */
 .features {
   /* Add styles for features section */
+  width: 90%;
+  height: 40%;
+  margin: 0 auto;
+  padding: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000b7;
+  color: #fff;
+  border-radius: 1rem;
 }
 
 .feature {
   /* Add styles for each feature block */
+  width: 25%;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+  border: 1px solid #ff8400;
 }
 
 .feature h3 {
   /* Add styles for feature heading */
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ff8400;
 }
 
 .feature p {
   /* Add styles for feature paragraph */
+
 }
