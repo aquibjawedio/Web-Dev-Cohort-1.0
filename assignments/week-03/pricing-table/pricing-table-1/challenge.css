@@ -10,10 +10,17 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f5f5f5;
+  color: #333;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   /* Add your styles here */
+
 }
 
 h1 {
