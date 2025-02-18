@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: #ffffff;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    height: 90%;
+    color: #000000;
+    background-color: #dadada;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.user-input-section{
+    height: 80%;
+    width: max(30%, 400px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #969696;
+    border-radius: 0.5rem;
+}
+
+.new-review-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.user-input-section > input {
+    width: 100%;
+    padding: 0.8rem;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+}
+
+.user-input-section > input:focus {
+    background-color: #dadada;
+}
+
+.total-stars {
+    font-size: 2rem;
+    letter-spacing: 5px;
+    color: #ffff64;
+}
+
+.submit-review {
+    padding: 0.8rem 3rem;
+    border: none;
+    background-color: #009dff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #2a2a2a;
+}
+
+.submit-review:hover, .submit-review:focus {
+    background-color: #0083d4;
+}
+
+
+
+.user-output-section  {
+    height: 80%;
+    width: max(60%, 600px);
+    background-color: #787878;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 0.4rem;
+    gap: 1rem;
+}
+
+.user-output-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.user-details-stars {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+}
+
+
+.card-user-name {
+    font-size: 1.2rem;
+    font-weight: 6  00;
+    margin-bottom: 0.5rem;
+}
+
+.delete-review {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.2rem 0.6rem;
+}
