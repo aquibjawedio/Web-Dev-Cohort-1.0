@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: #1b1b1b;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.navbar {
+    max-width: 1080px;
+    height: 10%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    padding: 0.5rem 1rem;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 12px;
+    gap: 1rem;
+}
+
+.navbar input[type="text"] {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 80%;
+    height: 100%;
+}
+
+.navbar input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.create-button,
+.random-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+    background-color: #0056b3;
+}
+
+.random-button {
+    background-color: #00922c;
+}
+
+.random-button:hover {
+    background-color: #006b20;
+}
+
+.background-section {
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #f0f0f0;
+    margin-top: 1rem;
+}
+
+.color-button {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #474747;
+}
+
+.color-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
